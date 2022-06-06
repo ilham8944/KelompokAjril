@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "npmAtom",
+    "name": "Model Atom",
     "slug": "npmAtom",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./images/atom2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./images/SplashScreen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./images/atom2.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ilhamnugraha.npmAtom"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./images/atom2.png"
+      
     }
   }
 }
